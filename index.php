@@ -7,7 +7,7 @@
 <body>
 <h1>FileUp</h1>
 
-<form action="./fileup.php" method="post" enctype="multipart/form-data">
+<form action="./index.php" method="post" enctype="multipart/form-data">
 	<p><input type="file" name="file_path[]" id="file_path[]" multiple /></p>
 	<p><input type="submit" value="submit" /></p>
 </form>
